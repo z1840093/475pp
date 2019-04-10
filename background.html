@@ -17,11 +17,13 @@
 	#grad1 {
 		height: 500px;
 		background-color: red;
+		/* For browsers that do not support gradients */
 		background-image: linear-gradient(to right, green, white, red);
+		/* Standard syntax (must be last) */
 	}
 </style>
 
-<body class="left-sidebar is-preload">
+<body style="background-color: red;background-image: linear-gradient(to right, green, white, red);" class="left-sidebar is-preload">
 	<div id="page-wrapper">
 		<div class="inner">
 			<header>
@@ -61,7 +63,7 @@
 	</div>
 
 	<!-- Main -->
-	<div style="background-color: red;background-image: linear-gradient(to right, green, white, red);" class="wrapper style1">
+	<div style="background-color: unset" class="wrapper style1">
 
 		<div class="container">
 			<div class="row gtr-200">

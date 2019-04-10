@@ -2363,6 +2363,7 @@ input, select, textarea {
 				#header .inner {
 					padding-left: 2em;
 					padding-right: 2em;
+					
 				}
 
 		/* Banner */
@@ -2793,4 +2794,7 @@ input, select, textarea {
 				padding-left: 1em;
 				padding-right: 1em;
 			}
+		}
+		.inner{
+			background-color: white;
 		}
